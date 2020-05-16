@@ -21,7 +21,7 @@ opinions = opinions.set_index('opinion_id')
 average_score = opinions.stars.mean().round(2)
 pros = opinions.pros.count()
 cons = opinions.cons.count()
-print(f'Średnia ocena: {average_score}\nLiczba opinii z zaletami: {pros}\nLiczba opinii z wadami: {cons}\n {stars}')
+print(f'Średnia ocena: {average_score}\nLiczba opinii z zaletami: {pros}\nLiczba opinii z wadami: {cons}')
 
 #histogram częstości występowania poszczególnych ocen (gwiazdek)
 stars = opinions.stars.value_counts().sort_index().reindex(list(np.arange(0,5.5,0.5)), fill_value=0)
