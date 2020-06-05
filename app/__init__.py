@@ -4,7 +4,7 @@ from flask import Flask
 #utworzenie instancji(obiektu) klasy Flask reprezentującego aplikację webową
 app = Flask(__name__)
 
-#import routing'ów
+#import routing'ów 
 from app import views
 
 #uruchomienie aplikacji
