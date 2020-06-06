@@ -1,4 +1,4 @@
-# CeneoScraper11N
+# CeneoScraper
 ## Etap 1 - analiza struktury opinii w serwisie [Ceneo.pl](https://www.ceneo.pl/)
 |Składowa                |Selektor                                                           |Nazwa zmiennej|
 |------------------------|-------------------------------------------------------------------|--------------|
@@ -38,7 +38,10 @@
 >>        /app  
 >>>            /__init__.py
 >>>            /views.py  
->>>            /models.py  
+>>>            /models.py
+>>>            /forms.py
+>>>            /scraper.py
+>>>            /analizer.py  
 >>>            /static/  
 >>>>                /main.css
 >>>>                /figures_png
